@@ -1,0 +1,19 @@
+<%- include('header') -%>
+<h1>Welcome to Dashboard</h1>
+<div class="text-center center-div mt-5" id="login">
+    <div class="container w-25 border py-5 mt-7">
+        <h2>Your Profile</h2>
+        <h4>Name : <%= locals.user ? user.name : "User" %></h4>
+        <h4>Email : <%= locals.user ? user.email : "User" %></h4>
+        <h4>Mobile : <%= locals.user ? user.tel : "User" %></h4>
+        <h4>City : <%= locals.user ? user.city : "User" %></h4>
+        <h4>Company Name : <%= locals.user ? user.company : "User" %></h4>
+        <h4>Project Name : <%= locals.user ? user.project : "User" %></h4>
+        <h4>Description : <%= locals.user ? user.desc : "User" %></h4>
+        <h4>Link of the project : <%= locals.user ? user.link : "User" %></h4>
+        
+        <a class="q" href="/route/logout">Logout</a>
+    </div>
+</div>
+
+<%- include('footer') -%>

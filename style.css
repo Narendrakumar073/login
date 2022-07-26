@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.center-div3{
+    padding-top: 10%;
+}
+.center-div2{
+    padding-top: 1%;
+    
+}
+
+
+.btn.btn-success{
+    padding: .8em 8em;
+}
+
+form{
+    padding: 0 3em;
+}
+
+#login .title > span{
+    font-size: .8em;
+}
+
+p{
+    
+    padding-top: 20px;
+    font-size: large;
+}
+label{
+    padding-right: 300px;
+    font-size:medium;
+}
+.py-5{
+    width: 600px !important;
+}
+
+.a {
+    height: 50px;
+    margin-right: 200px;
+    width: 470px;
+
+}
+
+select{
+    padding-block: 5px;
+    margin-bottom: 40px;
+}
+
+h5{
+    margin-right: 300px;
+    margin-bottom: 15px;
+}
+.p{
+    padding-right: 30px;
+
+}
+.pb-6{
+    padding-bottom: 2rem !important;
+}
+#a{
+    display: flex;
+}
+h6{
+    margin-top: 8px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+h1{
+    text-align: center;
+    margin-top: 40px;
+}
+.q{
+    margin-top: 30px;
+}
+h2{
+    margin-bottom: 60px;
+}
